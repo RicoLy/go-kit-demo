@@ -3,11 +3,12 @@ package main
 import (
 	"fmt"
 	"go-kit-demo/version1/utils"
-	"go-kit-demo/version1/v1/dao"
-	"go-kit-demo/version1/v1/endpoint"
-	"go-kit-demo/version1/v1/redis"
-	"go-kit-demo/version1/v1/service"
-	"go-kit-demo/version1/v1/transport"
+	"go-kit-demo/version1/v2/user/dao"
+	"go-kit-demo/version1/v2/user/endpoint"
+	"go-kit-demo/version1/v2/user/redis"
+	"go-kit-demo/version1/v2/user/service"
+	"go-kit-demo/version1/v2/user/transport"
+
 	"go.uber.org/zap"
 	"net/http"
 	"os"
